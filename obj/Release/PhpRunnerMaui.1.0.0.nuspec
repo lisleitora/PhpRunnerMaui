@@ -37,5 +37,6 @@
     <file src="C:\ProjectsX\PhpRunnerMaui\bin\Release\net7.0-maccatalyst\PhpRunnerMaui.dll" target="lib\net7.0-maccatalyst16.1\PhpRunnerMaui.dll" />
     <file src="C:\ProjectsX\PhpRunnerMaui\bin\Release\net7.0-windows10.0.19041.0\PhpRunnerMaui.dll" target="lib\net7.0-windows10.0.19041\PhpRunnerMaui.dll" />
     <file src="C:\ProjectsX\PhpRunnerMaui\bin\Release\net7.0-android\PhpRunnerMaui.aar" target="lib\net7.0-android33.0\PhpRunnerMaui.aar" />
+    <file src="C:\ProjectsX\PhpRunnerMaui\mauiphp.png" target="\mauiphp.png" />
   </files>
 </package>

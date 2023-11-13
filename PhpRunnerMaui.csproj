@@ -29,12 +29,9 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <None Remove="mauiphp.png" />
+	  <None Include="mauiphp.png" Pack="true" PackagePath="\"/>
 	</ItemGroup>
 
-	<ItemGroup>
-	  <EmbeddedResource Include="mauiphp.png" />
-	</ItemGroup>
 
 	<ItemGroup>
 	  <PackageReference Include="Refit" Version="7.0.0" />
