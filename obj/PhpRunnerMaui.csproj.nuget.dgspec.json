@@ -95,6 +95,10 @@
               "target": "Package",
               "version": "[7.0.92, )",
               "autoReferenced": true
+            },
+            "Refit": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -156,6 +160,10 @@
               "target": "Package",
               "version": "[7.0.92, )",
               "autoReferenced": true
+            },
+            "Refit": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             },
             "Xamarin.Android.Glide": {
               "suppressParent": "All",
@@ -286,6 +294,10 @@
               "target": "Package",
               "version": "[7.0.92, )",
               "autoReferenced": true
+            },
+            "Refit": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -350,6 +362,10 @@
               "target": "Package",
               "version": "[7.0.92, )",
               "autoReferenced": true
+            },
+            "Refit": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -427,6 +443,10 @@
               "target": "Package",
               "version": "[1.2.221209.1, )",
               "autoReferenced": true
+            },
+            "Refit": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
