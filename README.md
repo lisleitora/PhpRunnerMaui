@@ -10,7 +10,7 @@ Thanks daddy!
 
 Here is my NuGet:
 
-[![NuGet](https://img.shields.io/nuget/v/CustomShellMaui.svg?label=CustomShellMaui)](https://www.nuget.org/packages/PhpRunnerMaui/)
+[![NuGet](https://img.shields.io/nuget/v/PhpRunnerMaui.svg?label=PhpRunnerMaui)](https://www.nuget.org/packages/PhpRunnerMaui/)
 
 
 ## How to use
@@ -33,9 +33,9 @@ service.Update
 
 ## How to set
 ```csharp
-PhpRunnerService.Settings.ServerApi = "http://[YOUR SERVER PHPRUNNER]/api";
+PhpRunnerMaui.Settings.ServerApi = "http://[YOUR SERVER PHPRUNNER]/api";
 
-PhpRunnerService service = new PhpRunnerService();
+PhpRunnerMaui service = new PhpRunnerMaui();
 ```
 
 ## How to model
@@ -43,7 +43,7 @@ PhpRunnerService service = new PhpRunnerService();
 Example:
 ```csharp
 using System.Text.Json.Serialization;
-using static PhpRunnerService.Converters.JsonCustomConverters;
+using static PhpRunnerMaui.Converters.JsonCustomConverters;
 
 public class Users
 {
