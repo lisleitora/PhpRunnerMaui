@@ -8,12 +8,6 @@ namespace PhpRunnerMaui.Converters
     public class JsonCustomConverters
     {
 
-        //DateTime serverDate;
-        //    if(DateTime.TryParseExact(server +" +00:00", "yyyy-MM-dd HH:mm:ss zzz", CultureInfo.InvariantCulture, DateTimeStyles.None, out serverDate))
-        //    {
-
-        //    }
-
         public class DateTimeConverter : JsonConverter<DateTime>
         {
 
@@ -34,7 +28,6 @@ namespace PhpRunnerMaui.Converters
 
             public override void Write(Utf8JsonWriter writer, DateTime value, JsonSerializerOptions options)
             {
-                //writer.WriteStringValue("");
                 writer.WriteNullValue();
             }
 
@@ -70,8 +63,6 @@ namespace PhpRunnerMaui.Converters
         public class IntConverter : JsonConverter<int>
         {
 
-            //public override bool HandleNull => true;
-
             public override int Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options)
             {
                 if (reader.TokenType == JsonTokenType.String)
@@ -96,10 +87,6 @@ namespace PhpRunnerMaui.Converters
                 writer.WriteNumberValue(value);
             }
 
-            //public override bool CanConvert(Type objectType)
-            //{
-            //    return objectType == typeof(int);
-            //}
         }
     }
 }

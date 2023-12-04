@@ -6,51 +6,50 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v7.0": {
-      "PhpRunnerMaui/1.0.0": {
+      "PhpRunnerMaui/2.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Microsoft.Extensions.Logging": "7.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "7.0.0",
-          "Microsoft.Maui.Graphics": "7.0.92",
+          "Microsoft.Maui.Graphics": "7.0.101",
           "Refit": "7.0.0",
-          "runtimepack.Microsoft.Maui.Core.Runtime.any": "7.0.92",
-          "runtimepack.Microsoft.Maui.Controls.Runtime.any": "7.0.92",
-          "runtimepack.Microsoft.Maui.Essentials.Runtime.any": "7.0.92"
+          "runtimepack.Microsoft.Maui.Core.Runtime.any": "7.0.101",
+          "runtimepack.Microsoft.Maui.Controls.Runtime.any": "7.0.101",
+          "runtimepack.Microsoft.Maui.Essentials.Runtime.any": "7.0.101"
         },
         "runtime": {
           "PhpRunnerMaui.dll": {}
         }
       },
-      "runtimepack.Microsoft.Maui.Core.Runtime.any/7.0.92": {
+      "runtimepack.Microsoft.Maui.Core.Runtime.any/7.0.101": {
         "runtime": {
           "Microsoft.Maui.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "7.0.90.2"
+            "fileVersion": "7.0.97.4"
           }
         }
       },
-      "runtimepack.Microsoft.Maui.Controls.Runtime.any/7.0.92": {
+      "runtimepack.Microsoft.Maui.Controls.Runtime.any/7.0.101": {
         "runtime": {
           "Microsoft.Maui.Controls.Compatibility.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "7.0.90.2"
+            "fileVersion": "7.0.97.4"
           },
           "Microsoft.Maui.Controls.Xaml.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "7.0.90.2"
+            "fileVersion": "7.0.97.4"
           },
           "Microsoft.Maui.Controls.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "7.0.90.2"
+            "fileVersion": "7.0.97.4"
           }
         }
       },
-      "runtimepack.Microsoft.Maui.Essentials.Runtime.any/7.0.92": {
+      "runtimepack.Microsoft.Maui.Essentials.Runtime.any/7.0.101": {
         "runtime": {
           "Microsoft.Maui.Essentials.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "7.0.90.2"
+            "fileVersion": "7.0.97.4"
           }
         }
       },
@@ -138,11 +137,11 @@
           }
         }
       },
-      "Microsoft.Maui.Graphics/7.0.92": {
+      "Microsoft.Maui.Graphics/7.0.101": {
         "runtime": {
           "lib/net7.0/Microsoft.Maui.Graphics.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "7.0.90.2"
+            "fileVersion": "7.0.97.4"
           }
         }
       },
@@ -172,22 +171,22 @@
     }
   },
   "libraries": {
-    "PhpRunnerMaui/1.0.0": {
+    "PhpRunnerMaui/2.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "runtimepack.Microsoft.Maui.Core.Runtime.any/7.0.92": {
+    "runtimepack.Microsoft.Maui.Core.Runtime.any/7.0.101": {
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
     },
-    "runtimepack.Microsoft.Maui.Controls.Runtime.any/7.0.92": {
+    "runtimepack.Microsoft.Maui.Controls.Runtime.any/7.0.101": {
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
     },
-    "runtimepack.Microsoft.Maui.Essentials.Runtime.any/7.0.92": {
+    "runtimepack.Microsoft.Maui.Essentials.Runtime.any/7.0.101": {
       "type": "runtimepack",
       "serviceable": false,
       "sha512": ""
@@ -248,12 +247,12 @@
       "path": "microsoft.extensions.primitives/7.0.0",
       "hashPath": "microsoft.extensions.primitives.7.0.0.nupkg.sha512"
     },
-    "Microsoft.Maui.Graphics/7.0.92": {
+    "Microsoft.Maui.Graphics/7.0.101": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-fe9pKhm5LZGsAbEZQg7VEHGer76h8m8VPkGRWJ4P0+3QMu3yXOYmOiA60Wskjk8Mrd6eXZCQUWTTeley1agYQg==",
-      "path": "microsoft.maui.graphics/7.0.92",
-      "hashPath": "microsoft.maui.graphics.7.0.92.nupkg.sha512"
+      "sha512": "sha512-2+dHQpufctgN66Y+otNnBu9o+ODYlHvc2ufQ185wB2GqhklQeeko4xFsZSj3weDif4Idg0cgAY84qU3cQ0OcTw==",
+      "path": "microsoft.maui.graphics/7.0.101",
+      "hashPath": "microsoft.maui.graphics.7.0.101.nupkg.sha512"
     },
     "Refit/7.0.0": {
       "type": "package",

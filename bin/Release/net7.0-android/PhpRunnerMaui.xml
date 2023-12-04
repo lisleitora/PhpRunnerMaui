@@ -4,8 +4,8 @@
         <name>PhpRunnerMaui</name>
     </assembly>
     <members>
-        <!-- Badly formed XML comment ignored for member "M:PhpRunnerMaui.PhpRunnerServiceBase.Search``1(System.String)" -->
-        <!-- Badly formed XML comment ignored for member "M:PhpRunnerMaui.PhpRunnerServiceBase.SearchByIds``1(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:PhpRunnerMaui.PhpRunnerMaui.Search``1(System.String)" -->
+        <!-- Badly formed XML comment ignored for member "M:PhpRunnerMaui.PhpRunnerMaui.SearchByIds``1(System.String)" -->
         <member name="T:Refit.Implementation.Generated">
             <inheritdoc />
         </member>
