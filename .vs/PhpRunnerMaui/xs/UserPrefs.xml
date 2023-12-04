@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{A7CAA83C-8268-4601-8DF4-34AF016DB0AF}|Default">
+﻿<Properties StartupConfiguration="{103244FA-0E10-4F0F-9330-0EC50345DDF3}|Default">
   <MonoDevelop.Ide.ItemProperties.PhpRunnerMaui PreferredExecutionTarget="MonoDevelop.Default" />
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.ItemProperties.PhpRunnerMaui.Sample PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D227095E-865F-4CD5-BF66-5898F7DB945B" />
@@ -7,19 +7,21 @@
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <Xamarin.Addins.Core.Project ActiveDebugTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D227095E-865F-4CD5-BF66-5898F7DB945B" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../PhpRunnerMaui.Sample/MainPage.xaml.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PhpRunnerMaui.Sample/MainPage.xaml.cs">
     <Files>
-      <File FileName="../PhpRunnerMaui.Sample/MainPage.xaml.cs" Line="10" Column="37" />
-      <File FileName="../PhpRunnerMaui.Sample/MainPage.xaml" />
-      <File FileName="../PhpRunnerMaui.Sample/App.xaml.cs" />
+      <File FileName="PhpRunnerMaui.Sample/MainPage.xaml.cs" Line="10" Column="9" />
+      <File FileName="PhpRunnerMaui.Sample/MainPage.xaml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="PhpRunnerMaui">
-            <Node name="PhpRunnerMaui" selected="True" />
+          <Node name="PhpRunnerMaui" expanded="True">
             <Node name="PhpRunnerMaui.Sample">
+              <Node name="Dependencies" selected="True" />
+              <Node name="Platforms" expanded="True">
+                <Node name="iOS" expanded="True" />
+              </Node>
               <Node name="MainPage.xaml" expanded="True" />
             </Node>
           </Node>

@@ -31,6 +31,12 @@
 	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net7.0-ios|AnyCPU'">
 	  <CreatePackage>false</CreatePackage>
 	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net7.0-ios|AnyCPU'">
+	  <CreatePackage>false</CreatePackage>
+	</PropertyGroup>
+	<ItemGroup>
+	  <None Remove="PhpRunnerMaui.Sample\Properties\launchSettings.json" />
+	</ItemGroup>
 	<ItemGroup>
 	  <None Include="mauiphp.png" Pack="true" PackagePath="\" />
 	</ItemGroup>
@@ -40,4 +46,7 @@
 	  <PackageReference Include="Refit" Version="7.0.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <BundleResource Include="PhpRunnerMaui.Sample\Properties\launchSettings.json" />
+	</ItemGroup>
 </Project>

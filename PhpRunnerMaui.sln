@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34024.191
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhpRunnerMaui", "PhpRunnerMaui.csproj", "{103244FA-0E10-4F0F-9330-0EC50345DDF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhpRunnerMaui.Sample", "..\PhpRunnerMaui.Sample\PhpRunnerMaui.Sample.csproj", "{A7CAA83C-8268-4601-8DF4-34AF016DB0AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhpRunnerMaui.Sample", "PhpRunnerMaui.Sample\PhpRunnerMaui.Sample.csproj", "{33001BE0-94B3-471F-AAC6-B8E0677B2072}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{103244FA-0E10-4F0F-9330-0EC50345DDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{103244FA-0E10-4F0F-9330-0EC50345DDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{103244FA-0E10-4F0F-9330-0EC50345DDF3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A7CAA83C-8268-4601-8DF4-34AF016DB0AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A7CAA83C-8268-4601-8DF4-34AF016DB0AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A7CAA83C-8268-4601-8DF4-34AF016DB0AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A7CAA83C-8268-4601-8DF4-34AF016DB0AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33001BE0-94B3-471F-AAC6-B8E0677B2072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33001BE0-94B3-471F-AAC6-B8E0677B2072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33001BE0-94B3-471F-AAC6-B8E0677B2072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33001BE0-94B3-471F-AAC6-B8E0677B2072}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
