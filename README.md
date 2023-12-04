@@ -21,7 +21,7 @@ Here is my NuGet:
 ```csharp
 // Users = name of table
 // get user id = 1
-Users user = await service.Get<Users>(1);
+Users user = await PhpRunnerMaui.Service.Get<Users>(1);
 Console.WriteLine(user.Name);
 ```
 
@@ -37,9 +37,9 @@ service.Update
 
 ## How to set
 ```csharp
-PhpRunnerMaui.Settings.ServerApi = "http://[YOUR SERVER PHPRUNNER]/api";
+PhpRunnerMaui.ServerApi = "http://[YOUR SERVER PHPRUNNER]/api";
 
-PhpRunnerMaui service = new PhpRunnerMaui();
+PhpRunnerMaui.Service;
 ```
 
 ## How to model
