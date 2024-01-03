@@ -21,7 +21,7 @@ Here is my NuGet:
 ```csharp
 // Users = name of table
 // get user id = 1
-Users user = await PhpRunnerMaui.Service.Get<Users>(1);
+Users user = await PRMaui.Service.Get<Users>(1);
 Console.WriteLine(user.Name);
 ```
 

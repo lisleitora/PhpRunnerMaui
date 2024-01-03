@@ -7,19 +7,18 @@ using PhpRunnerMaui.Models;
 
 using System.Linq;
 using System.Text.Json;
+using PhpRunnerMaui;
 
-namespace PhpRunnerMaui
-{
-    public class PhpRunnerMaui
+public class PRMaui
     {
 
-        public static PhpRunnerMaui Service => _serviceInstance ?? (_serviceInstance = new PhpRunnerMaui());
+        public static PRMaui Service => _serviceInstance ?? (_serviceInstance = new PRMaui());
         public static string ServerApi;
 
-        private static PhpRunnerMaui _serviceInstance;
+        private static PRMaui _serviceInstance;
         private readonly HttpClient _httpClient;
 
-        public PhpRunnerMaui()
+        public PRMaui()
         {
             var baseUrl = new Uri(ServerApi);
             _httpClient = new HttpClient(new HttpClientHandler()) { BaseAddress = baseUrl };
@@ -221,4 +220,3 @@ namespace PhpRunnerMaui
         //}
 
     }
-}

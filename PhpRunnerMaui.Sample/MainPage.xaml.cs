@@ -2,38 +2,35 @@
 
 public partial class MainPage : ContentPage
 {
-    int count = 0;
-
     public MainPage()
     {
         InitializeComponent();
-        PhpRunnerMaui.ServerApi = "http://********************";
+        PRMaui.ServerApi = "http://***********/api";
     }
 
-    private async void OnCounterClicked(object sender, EventArgs e)
+    private async void OnList(object sender, EventArgs e)
     {
-        List<ClassAll> classAlls = await PhpRunnerMaui.Service.List<ClassAll>();
-        foreach (var item in classAlls)
-        {
-            System.Diagnostics.Debug.WriteLine("::::: " + item.teacher);
-        }
+        List<Confirm> all = await PRMaui.Service.List<Confirm>();
+        if (all != null)
+            foreach (var item in all)
+            {
+                System.Diagnostics.Debug.WriteLine(item.Id + " ::::: " + item.Name);
+            }
     }
 
-    public class ClassAll
+    private async void OnAdd(object sender, EventArgs e)
     {
-        public string id { get; set; }
-        public string curse_id { get; set; }
-        public string company_id { get; set; }
-        public string student_id { get; set; }
-        public string teacher_id { get; set; }
-        public string days { get; set; }
-        public string duration { get; set; }
-        public string evaluation_period { get; set; }
-        public string hours { get; set; }
-        public string active { get; set; }
-        public string company { get; set; }
-        public string teacher { get; set; }
-        public string student { get; set; }
-        public string curse { get; set; }
+        Confirm item = await PRMaui
+            .Service.Insert(new Confirm
+            {
+                Name = "Lixo Z",
+                Date = DateTime.Now,
+                CompanyId = 4,
+                ByStudent = true,
+                ByTeacher = false
+
+            });
+        if (item != null)
+            System.Diagnostics.Debug.WriteLine(item?.Id + " ::::: " + item?.Name);
     }
 }

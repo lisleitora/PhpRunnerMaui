@@ -28,7 +28,7 @@ namespace PhpRunnerMaui.Converters
 
             public override void Write(Utf8JsonWriter writer, DateTime value, JsonSerializerOptions options)
             {
-                writer.WriteNullValue();
+                writer.WriteStringValue(value.ToString("yyyy-MM-dd HH:mm:ss"));
             }
 
         }
@@ -42,7 +42,14 @@ namespace PhpRunnerMaui.Converters
                 Type typeToConvert,
                 JsonSerializerOptions options)
             {
-                return reader.GetString().Equals("1");
+                if (reader.TokenType == JsonTokenType.String)
+                {
+                    return reader.GetString().Equals("1");
+                }
+                else 
+                {
+                    return false;
+                }
             }
 
             public override void Write(
@@ -72,6 +79,10 @@ namespace PhpRunnerMaui.Converters
                     {
                         return value;
                     }
+                }
+                else if(reader.TokenType == JsonTokenType.Null)
+                {
+                    return 0;
                 }
                 else if (reader.TokenType == JsonTokenType.Number)
                 {
