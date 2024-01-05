@@ -2805,7 +2805,6 @@
 	  <None Remove="PhpRunnerMaui.Sample\obj\Release\net8.0-android\lp\92.stamp" />
 	  <None Remove="PhpRunnerMaui.Sample\obj\Release\net8.0-android\lp\92\jl\res.zip" />
 	  <None Remove="PhpRunnerMaui.Sample\obj\Release\net8.0-android\PhpRunnerMaui.Sample.assets.cache" />
-	  <None Remove="PhpRunnerMaui.Sample\obj\Release\net8.0-android\PhpRunnerMaui.Sample.csproj.AssemblyReference.cache" />
 	  <None Remove="PhpRunnerMaui.Sample\obj\Release\net8.0-android\mauiimage.inputs" />
 	  <None Remove="PhpRunnerMaui.Sample\obj\Release\net8.0-android\mauifont.inputs" />
 	  <None Remove="PhpRunnerMaui.Sample\obj\Release\net8.0-android\mauisplash.inputs" />
@@ -3275,10 +3274,8 @@
 	  <None Remove="PhpRunnerMaui.Sample\obj\Release\net8.0-android\PhpRunnerMaui.Sample.AssemblyInfoInputs.cache" />
 	  <None Remove="PhpRunnerMaui.Sample\obj\Release\net8.0-ios\iossimulator-x64\PhpRunnerMaui.Sample.assets.cache" />
 	  <None Remove="PhpRunnerMaui.Sample\obj\Release\net8.0-maccatalyst\PhpRunnerMaui.Sample.assets.cache" />
-	  <None Remove="PhpRunnerMaui.Sample\obj\Release\net8.0-ios\iossimulator-x64\PhpRunnerMaui.Sample.csproj.AssemblyReference.cache" />
 	  <None Remove="PhpRunnerMaui.Sample\obj\Release\net8.0-ios\iossimulator-x64\PhpRunnerMaui.Sample.GeneratedMSBuildEditorConfig.editorconfig" />
 	  <None Remove="PhpRunnerMaui.Sample\obj\Release\net8.0-ios\iossimulator-x64\PhpRunnerMaui.Sample.AssemblyInfoInputs.cache" />
-	  <None Remove="PhpRunnerMaui.Sample\obj\Release\net8.0-maccatalyst\PhpRunnerMaui.Sample.csproj.AssemblyReference.cache" />
 	  <None Remove="PhpRunnerMaui.Sample\obj\Release\net8.0-maccatalyst\PhpRunnerMaui.Sample.GeneratedMSBuildEditorConfig.editorconfig" />
 	  <None Remove="PhpRunnerMaui.Sample\obj\Release\net8.0-maccatalyst\PhpRunnerMaui.Sample.AssemblyInfoInputs.cache" />
 	  <None Remove="PhpRunnerMaui.Sample\obj\Debug\net8.0-android\designtime\build.props" />
@@ -4976,6 +4973,9 @@
 	  <None Remove="PhpRunnerMaui.Sample\bin\Debug\net8.0-ios\iossimulator-x64\PhpRunnerMaui.Sample.app\splash_FD93FBFAB6638381300AA442F29259671B4FAC57E95B188FE3F3903BEFEADC46%402x.png" />
 	  <None Remove="PhpRunnerMaui.Sample\bin\Debug\net8.0-ios\iossimulator-x64\PhpRunnerMaui.Sample.app\dotnet_bot%402x.png" />
 	  <None Remove="PhpRunnerMaui.Sample\bin\Debug\net8.0-ios\iossimulator-x64\PhpRunnerMaui.Sample.app\appicon76x76%402x~ipad.png" />
+	  <None Remove="PhpRunnerMaui.Sample\obj\Release\net8.0-android\PhpRunnerMaui.Sample.csproj.AssemblyReference.cache" />
+	  <None Remove="PhpRunnerMaui.Sample\obj\Release\net8.0-ios\iossimulator-x64\PhpRunnerMaui.Sample.csproj.AssemblyReference.cache" />
+	  <None Remove="PhpRunnerMaui.Sample\obj\Release\net8.0-maccatalyst\PhpRunnerMaui.Sample.csproj.AssemblyReference.cache" />
 	</ItemGroup>
 	<ItemGroup>
 	  <None Include="mauiphp.png" Pack="true" PackagePath="\" />
@@ -5009,7 +5009,6 @@
 	  <Compile Remove="PhpRunnerMaui.Sample\Platforms\Windows\App.xaml.cs" />
 	  <Compile Remove="PhpRunnerMaui.Sample\Confirm.cs" />
 	  <Compile Remove="PhpRunnerMaui.Sample\obj\Debug\net8.0-android\PhpRunnerMaui.Sample.GlobalUsings.g.cs" />
-	  <Compile Remove="PhpRunnerMaui.Sample\MainPage.xaml.cs" />
 	  <Compile Remove="PhpRunnerMaui.Sample\obj\Release\net8.0-android\__Microsoft.Android.Resource.Designer.cs" />
 	  <Compile Remove="PhpRunnerMaui.Sample\obj\Release\net8.0-android\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" />
 	  <Compile Remove="PhpRunnerMaui.Sample\obj\Release\net8.0-android\PhpRunnerMaui.Sample.GlobalUsings.g.cs" />
@@ -5033,5 +5032,6 @@
 	  <Compile Remove="PhpRunnerMaui.Sample\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\PhpRunnerMaui.Sample.GlobalUsings.g.cs" />
 	  <Compile Remove="PhpRunnerMaui.Sample\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\PhpRunnerMaui.Sample.nfloat.g.cs" />
 	  <Compile Remove="PhpRunnerMaui.Sample\obj\Debug\net8.0-maccatalyst\maccatalyst-x64\PhpRunnerMaui.Sample.AssemblyInfo.cs" />
+	  <Compile Remove="PhpRunnerMaui.Sample\MainPage.xaml.cs" />
 	</ItemGroup>
 </Project>

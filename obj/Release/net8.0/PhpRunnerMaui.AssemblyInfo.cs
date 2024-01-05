@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Needs to consume PhpRunner service")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("3.5.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("3.5.0+e1975865cc9910b032ba47592a82dcc6ca5e39ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("3.5.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("PhpRunnerMaui")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PhpRunnerMaui")]
 [assembly: System.Reflection.AssemblyVersionAttribute("3.5.0.0")]
