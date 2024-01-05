@@ -5,7 +5,7 @@
 
     <ScrollView>
         <VerticalStackLayout
-            Padding="30,0"
+            Padding="30,30"
             Spacing="25">
 
             <Button
@@ -17,6 +17,12 @@
                 Text="List" 
                 Clicked="OnList"
                 HorizontalOptions="Fill" />
+
+            <Button
+                Text="Filter" 
+                Clicked="OnFilter"
+                HorizontalOptions="Fill" />
+
         </VerticalStackLayout>
     </ScrollView>
 

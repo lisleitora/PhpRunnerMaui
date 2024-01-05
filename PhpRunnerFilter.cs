@@ -3,16 +3,22 @@ namespace PhpRunnerMaui
 {
     public class PhpRunnerFilter
     {
-        private PhpRunnerFilter(string value) { Value = value; }
 
+        public string Field { get; set; }
         public string Value { get; set; }
+        public string Filter { get; set; }
 
-        public static new PhpRunnerFilter Equals { get { return new PhpRunnerFilter("equals"); } }
-        public static PhpRunnerFilter Contains { get { return new PhpRunnerFilter("contains"); } }
-        public static PhpRunnerFilter StartsWith { get { return new PhpRunnerFilter("startswidth"); } }
-        public static PhpRunnerFilter MoreThan { get { return new PhpRunnerFilter("morethan"); } }
-        public static PhpRunnerFilter LessThan { get { return new PhpRunnerFilter("lessthan"); } }
-        public static PhpRunnerFilter Empty { get { return new PhpRunnerFilter("empty"); } }
-        public static PhpRunnerFilter IsNotEmpty { get { return new PhpRunnerFilter("isnotempty"); } }
+        public PhpRunnerFilter()
+        {
+
+        }
+
+        public static readonly new string Equals = "equals";
+        public static readonly string Contains = "contains";
+        public static readonly string StartsWith = "startswidth";
+        public static readonly string MoreThan = "morethan";
+        public static readonly string LessThan = "lessthan";
+        public static readonly string Empty = "empty";
+        public static readonly string IsNotEmpty = "isnotempty";
     }
 }

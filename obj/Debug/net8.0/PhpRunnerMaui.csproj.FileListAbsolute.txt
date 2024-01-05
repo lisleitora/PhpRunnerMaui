@@ -1,0 +1,13 @@
+/Users/dev/Projects/PhpRunnerMaui/bin/Debug/net8.0/PhpRunnerMaui.deps.json
+/Users/dev/Projects/PhpRunnerMaui/bin/Debug/net8.0/PhpRunnerMaui.dll
+/Users/dev/Projects/PhpRunnerMaui/bin/Debug/net8.0/PhpRunnerMaui.pdb
+/Users/dev/Projects/PhpRunnerMaui/obj/Debug/net8.0/PhpRunnerMaui.csproj.AssemblyReference.cache
+/Users/dev/Projects/PhpRunnerMaui/obj/Debug/net8.0/PhpRunnerMaui.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dev/Projects/PhpRunnerMaui/obj/Debug/net8.0/PhpRunnerMaui.AssemblyInfoInputs.cache
+/Users/dev/Projects/PhpRunnerMaui/obj/Debug/net8.0/PhpRunnerMaui.AssemblyInfo.cs
+/Users/dev/Projects/PhpRunnerMaui/obj/Debug/net8.0/PhpRunnerMaui.csproj.CoreCompileInputs.cache
+/Users/dev/Projects/PhpRunnerMaui/obj/Debug/net8.0/PhpRunnerMaui.sourcelink.json
+/Users/dev/Projects/PhpRunnerMaui/obj/Debug/net8.0/PhpRunnerMaui.dll
+/Users/dev/Projects/PhpRunnerMaui/obj/Debug/net8.0/refint/PhpRunnerMaui.dll
+/Users/dev/Projects/PhpRunnerMaui/obj/Debug/net8.0/PhpRunnerMaui.pdb
+/Users/dev/Projects/PhpRunnerMaui/obj/Debug/net8.0/ref/PhpRunnerMaui.dll

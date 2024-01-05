@@ -5,7 +5,7 @@ public partial class MainPage : ContentPage
     public MainPage()
     {
         InitializeComponent();
-        PRMaui.ServerApi = "http://***********/api";
+        PRMaui.ServerApi = "http://pablo.mobi/liluclass/api";
     }
 
     private async void OnList(object sender, EventArgs e)
@@ -32,5 +32,21 @@ public partial class MainPage : ContentPage
             });
         if (item != null)
             System.Diagnostics.Debug.WriteLine(item?.Id + " ::::: " + item?.Name);
+    }
+
+    private async void OnFilter(object sender, EventArgs e)
+    {
+        
+        List<Confirm> all = await PRMaui.Service.Search<Confirm>(
+            new List<PhpRunnerFilter> {
+                new PhpRunnerFilter { Field = "class_id", Filter = PhpRunnerFilter.Equals, Value = "5" },
+                new PhpRunnerFilter { Field = "student_id", Filter = PhpRunnerFilter.Equals, Value = "7" }
+            }
+            );
+        if (all != null)
+            foreach (var item in all)
+            {
+                System.Diagnostics.Debug.WriteLine(item.Id + " ::::: " + item.Name);
+            }
     }
 }
