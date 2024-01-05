@@ -5,7 +5,7 @@ public partial class MainPage : ContentPage
     public MainPage()
     {
         InitializeComponent();
-        PRMaui.ServerApi = "http://pablo.mobi/liluclass/api";
+        PRMaui.ServerApi = "http://**********/api";
     }
 
     private async void OnList(object sender, EventArgs e)
